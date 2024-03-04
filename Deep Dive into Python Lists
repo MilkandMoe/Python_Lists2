@@ -1,0 +1,11 @@
+#Tasks1:
+
+students ={{
+    "name": ["John", "Doe", "Jane", "Smith"],
+    "grade": [85,90,78,88],
+    "activity": ["Football", "Music", "Art", "Dance"],
+    "status": "Passed"
+}
+#Tasks2:
+
+grades_below_eighty = students("grade").filter[0:1:2]
